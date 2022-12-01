@@ -1,0 +1,52 @@
+body {
+    font-family: $fuente-grande;
+    text-align: center;
+    justify-items: center;
+    background-color: $bg-body;
+    color: $letra-clara;
+}
+h1 {
+    font-size: 60px;
+    color: #FBB1EF;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+.descuentos {
+    font-size: 10px;
+    color: aliceblue;
+    word-spacing: 10px;
+}
+header {
+    background-color: #F48EF6;
+    text-align: center;
+}
+h2 {
+    text-transform:uppercase;
+    word-spacing: 6px;
+    letter-spacing: 4px;
+}
+img {
+    max-width: 100%;
+    width: 800px;
+}
+.inicio {
+    width: 60px;
+}
+.ico {
+    width: 60px;
+    display: inline-block;
+    
+}
+.nav-item {
+    background-color: #72DDF7;
+}
+
+ul li a {
+    color: aliceblue;
+}
+nav ul li:hover {
+    background-color: aliceblue;
+}
+nav ul li {
+    transition: all ease-in-out 250ms;
+}
